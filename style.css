@@ -33,3 +33,4 @@ nav a:focus-visible { background: var(--fundo); color: var(--texto); }
   :root { --azul: #000000; --fundo: #000000; --texto: #ffffff; --foco: #ffff00; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+picture img { display: block; max-width: 100%; height: auto; border-radius: 8px; margin: 1rem 0; }
