@@ -15,6 +15,12 @@ Projeto web para uma ONG, desenvolvido com foco em versionamento, acessibilidade
 
 O Vite minifica HTML, CSS e JavaScript. Redução medida: HTML 1512 para 1368 bytes, CSS 1916 para 1660 e JS 345 para 256.
 
+## Deploy
+
+O deploy é automático no GitHub Pages: a cada push na main, o workflow `.github/workflows/deploy.yml` instala as dependências, gera o build e publica a pasta `dist`.
+
+Site publicado: https://gomdimapps.github.io/cruzeiro-front-exp-4/
+
 ## Estrutura
 
 - `index.html`: página inicial com estrutura semântica e formulário de voluntariado
