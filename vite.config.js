@@ -19,6 +19,7 @@ export default defineConfig({
     outDir: "dist",
     minify: "esbuild",
     cssMinify: true,
+    assetsInlineLimit: 0,
     modulePreload: { polyfill: false },
   },
 });
