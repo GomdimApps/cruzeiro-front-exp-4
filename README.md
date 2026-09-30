@@ -7,6 +7,14 @@ Projeto web para uma ONG, desenvolvido com foco em versionamento, acessibilidade
 1. Clone o repositório: `git clone https://github.com/GomdimApps/cruzeiro-front-exp-4.git`
 2. Abra o arquivo `index.html` no navegador. Não há dependências a instalar.
 
+## Build de produção
+
+1. Instale as dependências: `npm install`
+2. Gere a versão otimizada: `npm run build` (saída na pasta `dist`)
+3. Visualize localmente: `npm run preview`
+
+O Vite minifica HTML, CSS e JavaScript. Redução medida: HTML 1512 para 1368 bytes, CSS 1916 para 1660 e JS 345 para 256.
+
 ## Estrutura
 
 - `index.html`: página inicial com estrutura semântica e formulário de voluntariado
