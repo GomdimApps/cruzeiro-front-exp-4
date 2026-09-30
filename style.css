@@ -17,3 +17,6 @@ footer { background: var(--azul); color: #fff; padding: 1rem 2rem; }
 /* Foco visível em todos os elementos interativos */
 a:focus-visible, button:focus-visible, input:focus-visible { outline: 3px solid #ff9800; outline-offset: 2px; }
 nav a:focus-visible { background: #fff; color: var(--azul); }
+main:focus { outline: none; }
+.mensagem { margin-top: 1rem; padding: .75rem; border: 2px solid var(--azul); }
+.mensagem:empty { display: none; }
